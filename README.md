@@ -24,7 +24,7 @@ python3 syswhispers.py -a x64 -m embedded --functions NtSetContextThread
 
 Upon execution, abnormal syscalls should be identified:
 
-![Identification of Abnormal Syscalls](/Screenshots/1.png?raw=true
+![Identification of Abnormal Syscalls](/Screenshots/1.png?raw=true)
 
 ## Credits
 
