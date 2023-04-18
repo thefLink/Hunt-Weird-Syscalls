@@ -4,7 +4,7 @@ This project aims to identify (some) abnormally conducted syscalls by leveraging
 
 ``ETW`` providers sitting in the kernel can effectively be leveraged, as the calltraces of the emitted events contain the address from where the syscall was conducted.
 
-This allows monitoring for two techniques often leveraged by threat actors: ``direct`` and ``indirect`` syscalls:
+This allows monitoring for two techniques often used by threat actors: ``direct`` and ``indirect`` syscalls:
 
 1: A syscall was conducted from an untrusted module (=direct syscall)   
 2: The used syscall stub does not match the conducted syscall (=indirect syscall)
