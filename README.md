@@ -33,6 +33,7 @@ Upon execution, abnormal syscalls should be identified:
 
 ![Identification of Abnormal Syscalls](/Screenshots/1.png?raw=true)
 
+**Tested on ``10.0.19044``.**
 
 ## Credits
 
