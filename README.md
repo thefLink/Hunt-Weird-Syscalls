@@ -41,3 +41,4 @@ Upon execution, abnormal syscalls should be identified:
 - [SysWhispers3](https://github.com/klezVirus/SysWhispers3)
 - [etw provider docs by repnz](https://github.com/repnz/etw-providers-docs)
 - [@OutflankNL](https://twitter.com/OutflankNL) for ``IsElevated()``
+- [@trickster012](https://twitter.com/trickster012) for testing and support <3
