@@ -12,7 +12,7 @@ This project uses ``ETW``, more precisely kernel based ETW providers, to monitor
 This allows monitoring IOCs indicating direct and indirect syscalls, a technique often leveraged by threat actors:
 
 1: A syscall was conducted from an untrusted module (=direct syscall)   
-2: The used syscall stub does not match the conducted syscall (=indirect syscall)
+2: The used syscall stub in ntdll does not match the conducted syscall (=indirect syscall)
 
 This project uses the Provider: ``Microsoft-Windows-Kernel-Audit-API-Calls`` to monitor for ``OpenThread`` and ``SetContextThread`` events triggered by the syscalls ``NtSetContextThread`` or ``NtOpenThread`` respectively.    
 Calltraces are enabled, using the flag ``EVENT_ENABLE_PROPERTY_STACK_TRACE``.   
